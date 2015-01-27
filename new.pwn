@@ -154,7 +154,7 @@ public OnVehicleStreamOut(vehicleid, forplayerid)
 
 public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 {
-	return 1;
+	return 0;
 }
 
 public OnPlayerClickPlayer(playerid, clickedplayerid, source)

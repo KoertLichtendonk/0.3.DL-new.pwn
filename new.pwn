@@ -266,7 +266,6 @@ public OnPlayerRequestSpawn(playerid)
 	return 1;
 }
 
-
 public OnPlayerSelectObject(playerid, type, objectid, modelid, Float:fX, Float:fY, Float:fZ)
 {
 	return 1;
@@ -286,7 +285,6 @@ public OnPlayerTakeDamage(playerid, issuerid, Float:amount, weaponid, bodypart)
 {
 	return 1;
 }
-
 
 public OnPlayerWeaponShot(playerid, weaponid, hittype, hitid, Float:fX, Float:fY, Float:fZ)
 {
@@ -308,3 +306,27 @@ public OnVehicleDamageStatusUpdate(vehicleid, playerid)
 	return 1;
 }
 
+public OnActorStreamIn(actorid, forplayerid)
+{
+    return 1;
+}
+
+public OnActorStreamOut(actorid, forplayerid)
+{
+    return 1;
+}
+
+public OnPlayerFinishedDownloading(playerid, virtualworld)
+{
+    return 1;
+}
+
+public OnPlayerGiveDamageActor(playerid, damaged_actorid, Float: amount, weaponid, bodypart)
+{
+    return 1;
+}
+
+public OnVehicleSirenStateChange(playerid, vehicleid, newstate)
+{
+    return 1;
+}

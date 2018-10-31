@@ -306,25 +306,25 @@ public OnVehicleDamageStatusUpdate(vehicleid, playerid)
 
 public OnActorStreamIn(actorid, forplayerid)
 {
-    return 1;
+	return 1;
 }
 
 public OnActorStreamOut(actorid, forplayerid)
 {
-    return 1;
+	return 1;
 }
 
 public OnPlayerFinishedDownloading(playerid, virtualworld)
 {
-    return 1;
+	return 1;
 }
 
 public OnPlayerGiveDamageActor(playerid, damaged_actorid, Float: amount, weaponid, bodypart)
 {
-    return 1;
+	return 1;
 }
 
 public OnVehicleSirenStateChange(playerid, vehicleid, newstate)
 {
-    return 1;
+	return 1;
 }

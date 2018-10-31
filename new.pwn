@@ -193,13 +193,11 @@ public OnPlayerEditAttachedObject(playerid, response, index, modelid, boneid, Fl
 	return 1;
 }
 
-
 public OnPlayerEditObject(playerid, playerobject, objectid, response, Float:fX, Float:fY, Float:fZ,
 	Float:fRotX, Float:fRotY, Float:fRotZ)
 {
 	return 1;
 }
-
 
 public OnPlayerEnterCheckpoint(playerid)
 {
